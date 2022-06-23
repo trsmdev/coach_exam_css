@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+.header_wrap {
+  height: 96px;
+  display: flex;
+  color: rgb(30, 70, 200);
+  font-weight: bold;
+  justify-content: space-between;
+}
+
+.header_left {
+  font-size: 36px;
+  padding: 30px;
+}
+
+.header_right {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  padding: 15px;
+  text-align: center;
+}
+
+.header_inner {
+  margin: 18px;
+}
+
+.main_wrap {
+  height: 850px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.img_box {
+  position: relative;
+}
+
+img {
+  width: 48vw;
+  height: auto;
+  position: relative;
+  z-index: 1;
+}
+.message_box {
+  position: absolute;
+  z-index: 0;
+  background-color: rgb(30, 70, 200);
+  width: 75vw;
+  height: 25vh;
+  top: 25vw;
+  right: 25vw;
+}
+
+.message {
+  display: block;
+  font-size: 80px;
+  margin-top: -80px;
+}
